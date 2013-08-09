@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31383CFC17B4D64B00F3A8BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31383CFB17B4D64B00F3A8BC /* UIKit.framework */; };
+		31383CFE17B4D64B00F3A8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31383CFD17B4D64B00F3A8BC /* Foundation.framework */; };
+		31383D0017B4D64B00F3A8BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31383CFF17B4D64B00F3A8BC /* CoreGraphics.framework */; };
+		31383D0217B4D64B00F3A8BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31383D0117B4D64B00F3A8BC /* CoreData.framework */; };
+		31383D0817B4D64B00F3A8BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31383D0617B4D64B00F3A8BC /* InfoPlist.strings */; };
+		31383D0A17B4D64B00F3A8BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31383D0917B4D64B00F3A8BC /* main.m */; };
+		31383D0E17B4D64B00F3A8BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31383D0D17B4D64B00F3A8BC /* AppDelegate.m */; };
+		31383D1017B4D64B00F3A8BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31383D0F17B4D64B00F3A8BC /* Default.png */; };
+		31383D1217B4D64B00F3A8BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31383D1117B4D64B00F3A8BC /* Default@2x.png */; };
+		31383D1417B4D64B00F3A8BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31383D1317B4D64B00F3A8BC /* Default-568h@2x.png */; };
+		31383D1717B4D64B00F3A8BC /* danfoss_checkin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31383D1517B4D64B00F3A8BC /* danfoss_checkin.xcdatamodeld */; };
+		31383D1A17B4D64B00F3A8BC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31383D1917B4D64B00F3A8BC /* MasterViewController.m */; };
+		31383D1D17B4D64B00F3A8BC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31383D1C17B4D64B00F3A8BC /* DetailViewController.m */; };
+		31383D2017B4D64B00F3A8BC /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31383D1E17B4D64B00F3A8BC /* MasterViewController_iPhone.xib */; };
+		31383D2317B4D64B00F3A8BC /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31383D2117B4D64B00F3A8BC /* MasterViewController_iPad.xib */; };
+		31383D2617B4D64B00F3A8BC /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31383D2417B4D64B00F3A8BC /* DetailViewController_iPhone.xib */; };
+		31383D2917B4D64B00F3A8BC /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31383D2717B4D64B00F3A8BC /* DetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31383CF817B4D64B00F3A8BC /* danfoss_checkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = danfoss_checkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31383CFB17B4D64B00F3A8BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31383CFD17B4D64B00F3A8BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31383CFF17B4D64B00F3A8BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31383D0117B4D64B00F3A8BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31383D0517B4D64B00F3A8BC /* danfoss_checkin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "danfoss_checkin-Info.plist"; sourceTree = "<group>"; };
+		31383D0717B4D64B00F3A8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31383D0917B4D64B00F3A8BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31383D0B17B4D64B00F3A8BC /* danfoss_checkin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "danfoss_checkin-Prefix.pch"; sourceTree = "<group>"; };
+		31383D0C17B4D64B00F3A8BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31383D0D17B4D64B00F3A8BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31383D0F17B4D64B00F3A8BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		31383D1117B4D64B00F3A8BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		31383D1317B4D64B00F3A8BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		31383D1617B4D64B00F3A8BC /* danfoss_checkin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = danfoss_checkin.xcdatamodel; sourceTree = "<group>"; };
+		31383D1817B4D64B00F3A8BC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		31383D1917B4D64B00F3A8BC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		31383D1B17B4D64B00F3A8BC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		31383D1C17B4D64B00F3A8BC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		31383D1F17B4D64B00F3A8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		31383D2217B4D64B00F3A8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		31383D2517B4D64B00F3A8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		31383D2817B4D64B00F3A8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31383CF517B4D64B00F3A8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31383CFC17B4D64B00F3A8BC /* UIKit.framework in Frameworks */,
+				31383CFE17B4D64B00F3A8BC /* Foundation.framework in Frameworks */,
+				31383D0017B4D64B00F3A8BC /* CoreGraphics.framework in Frameworks */,
+				31383D0217B4D64B00F3A8BC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31383CEF17B4D64B00F3A8BC = {
+			isa = PBXGroup;
+			children = (
+				31383D0317B4D64B00F3A8BC /* danfoss_checkin */,
+				31383CFA17B4D64B00F3A8BC /* Frameworks */,
+				31383CF917B4D64B00F3A8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31383CF917B4D64B00F3A8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31383CF817B4D64B00F3A8BC /* danfoss_checkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31383CFA17B4D64B00F3A8BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31383CFB17B4D64B00F3A8BC /* UIKit.framework */,
+				31383CFD17B4D64B00F3A8BC /* Foundation.framework */,
+				31383CFF17B4D64B00F3A8BC /* CoreGraphics.framework */,
+				31383D0117B4D64B00F3A8BC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31383D0317B4D64B00F3A8BC /* danfoss_checkin */ = {
+			isa = PBXGroup;
+			children = (
+				31383D0C17B4D64B00F3A8BC /* AppDelegate.h */,
+				31383D0D17B4D64B00F3A8BC /* AppDelegate.m */,
+				31383D1817B4D64B00F3A8BC /* MasterViewController.h */,
+				31383D1917B4D64B00F3A8BC /* MasterViewController.m */,
+				31383D1B17B4D64B00F3A8BC /* DetailViewController.h */,
+				31383D1C17B4D64B00F3A8BC /* DetailViewController.m */,
+				31383D1E17B4D64B00F3A8BC /* MasterViewController_iPhone.xib */,
+				31383D2117B4D64B00F3A8BC /* MasterViewController_iPad.xib */,
+				31383D2417B4D64B00F3A8BC /* DetailViewController_iPhone.xib */,
+				31383D2717B4D64B00F3A8BC /* DetailViewController_iPad.xib */,
+				31383D1517B4D64B00F3A8BC /* danfoss_checkin.xcdatamodeld */,
+				31383D0417B4D64B00F3A8BC /* Supporting Files */,
+			);
+			path = danfoss_checkin;
+			sourceTree = "<group>";
+		};
+		31383D0417B4D64B00F3A8BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31383D0517B4D64B00F3A8BC /* danfoss_checkin-Info.plist */,
+				31383D0617B4D64B00F3A8BC /* InfoPlist.strings */,
+				31383D0917B4D64B00F3A8BC /* main.m */,
+				31383D0B17B4D64B00F3A8BC /* danfoss_checkin-Prefix.pch */,
+				31383D0F17B4D64B00F3A8BC /* Default.png */,
+				31383D1117B4D64B00F3A8BC /* Default@2x.png */,
+				31383D1317B4D64B00F3A8BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31383CF717B4D64B00F3A8BC /* danfoss_checkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31383D2C17B4D64B00F3A8BC /* Build configuration list for PBXNativeTarget "danfoss_checkin" */;
+			buildPhases = (
+				31383CF417B4D64B00F3A8BC /* Sources */,
+				31383CF517B4D64B00F3A8BC /* Frameworks */,
+				31383CF617B4D64B00F3A8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = danfoss_checkin;
+			productName = danfoss_checkin;
+			productReference = 31383CF817B4D64B00F3A8BC /* danfoss_checkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31383CF017B4D64B00F3A8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "JIN JIA SHUN";
+			};
+			buildConfigurationList = 31383CF317B4D64B00F3A8BC /* Build configuration list for PBXProject "danfoss_checkin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31383CEF17B4D64B00F3A8BC;
+			productRefGroup = 31383CF917B4D64B00F3A8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31383CF717B4D64B00F3A8BC /* danfoss_checkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31383CF617B4D64B00F3A8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31383D0817B4D64B00F3A8BC /* InfoPlist.strings in Resources */,
+				31383D1017B4D64B00F3A8BC /* Default.png in Resources */,
+				31383D1217B4D64B00F3A8BC /* Default@2x.png in Resources */,
+				31383D1417B4D64B00F3A8BC /* Default-568h@2x.png in Resources */,
+				31383D2017B4D64B00F3A8BC /* MasterViewController_iPhone.xib in Resources */,
+				31383D2317B4D64B00F3A8BC /* MasterViewController_iPad.xib in Resources */,
+				31383D2617B4D64B00F3A8BC /* DetailViewController_iPhone.xib in Resources */,
+				31383D2917B4D64B00F3A8BC /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31383CF417B4D64B00F3A8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31383D0A17B4D64B00F3A8BC /* main.m in Sources */,
+				31383D0E17B4D64B00F3A8BC /* AppDelegate.m in Sources */,
+				31383D1717B4D64B00F3A8BC /* danfoss_checkin.xcdatamodeld in Sources */,
+				31383D1A17B4D64B00F3A8BC /* MasterViewController.m in Sources */,
+				31383D1D17B4D64B00F3A8BC /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31383D0617B4D64B00F3A8BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31383D0717B4D64B00F3A8BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31383D1E17B4D64B00F3A8BC /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31383D1F17B4D64B00F3A8BC /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31383D2117B4D64B00F3A8BC /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31383D2217B4D64B00F3A8BC /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		31383D2417B4D64B00F3A8BC /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31383D2517B4D64B00F3A8BC /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		31383D2717B4D64B00F3A8BC /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31383D2817B4D64B00F3A8BC /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31383D2A17B4D64B00F3A8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31383D2B17B4D64B00F3A8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31383D2D17B4D64B00F3A8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "danfoss_checkin/danfoss_checkin-Prefix.pch";
+				INFOPLIST_FILE = "danfoss_checkin/danfoss_checkin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31383D2E17B4D64B00F3A8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "danfoss_checkin/danfoss_checkin-Prefix.pch";
+				INFOPLIST_FILE = "danfoss_checkin/danfoss_checkin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31383CF317B4D64B00F3A8BC /* Build configuration list for PBXProject "danfoss_checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31383D2A17B4D64B00F3A8BC /* Debug */,
+				31383D2B17B4D64B00F3A8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31383D2C17B4D64B00F3A8BC /* Build configuration list for PBXNativeTarget "danfoss_checkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31383D2D17B4D64B00F3A8BC /* Debug */,
+				31383D2E17B4D64B00F3A8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31383D1517B4D64B00F3A8BC /* danfoss_checkin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31383D1617B4D64B00F3A8BC /* danfoss_checkin.xcdatamodel */,
+			);
+			currentVersion = 31383D1617B4D64B00F3A8BC /* danfoss_checkin.xcdatamodel */;
+			path = danfoss_checkin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31383CF017B4D64B00F3A8BC /* Project object */;
+}
